@@ -24,14 +24,14 @@ namespace Departmetns
         public MainWindow()
         {
             InitializeComponent();
-            //Departmetns.Model.Department departmetns = new Model.Department("Информационный");
-            //departmetns.Employees.Add(new Model.Employee("Иванов Иван", 33));
-            //departmetns.Employees.Add(new Model.Employee("Петров Петр", 35));
-            //departmetns.Employees.Add(new Model.Employee("Сидоров Андрей", 43));
+            Departmetns.Model.Department departmetns = new Model.Department("Информационный");
+            departmetns.Employees.Add(new Model.Employee("Иванов Иван", 33));
+            departmetns.Employees.Add(new Model.Employee("Петров Петр", 35));
+            departmetns.Employees.Add(new Model.Employee("Сидоров Андрей", 43));
 
             //departmetns.WriteToXML("deparments.xml");
-            Department departments = Department.LoadFromXML("deparments.xml");
-            lbPeople.ItemsSource = departments.Employees;
+            //Department departments = Department.LoadFromXML("deparments.xml");
+            lbPeople.ItemsSource = departmetns.Employees;
         }
 
         private void lbPeople_SelectionChanged(object sender, SelectionChangedEventArgs e)
