@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson5", "Lesson5\Lesson5.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Departmetns", "Departmetns\Departmetns.csproj", "{B974F7E9-AB8C-4B07-BB9C-4BD1681DEFEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF", "WPF\WPF.csproj", "{DDFAC30E-2AA0-411F-9853-9C61EAAB2B6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF", "WPF\WPF.csproj", "{DDFAC30E-2AA0-411F-9853-9C61EAAB2B6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDataBaseExample", "SimpleDataBaseExample\SimpleDataBaseExample.csproj", "{43FF9F5F-441C-4267-8AF7-352E5D883824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDataBaseExample_NetCore", "SimpleDataBaseExample_NetCore\SimpleDataBaseExample_NetCore.csproj", "{458CF068-44AF-4E41-B7B9-8143199AA684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET_WPF", "ADONET_WPF\ADONET_WPF.csproj", "{8915817C-AAB6-4518-8ECD-F86A997BA697}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{DDFAC30E-2AA0-411F-9853-9C61EAAB2B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDFAC30E-2AA0-411F-9853-9C61EAAB2B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDFAC30E-2AA0-411F-9853-9C61EAAB2B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43FF9F5F-441C-4267-8AF7-352E5D883824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43FF9F5F-441C-4267-8AF7-352E5D883824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43FF9F5F-441C-4267-8AF7-352E5D883824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43FF9F5F-441C-4267-8AF7-352E5D883824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458CF068-44AF-4E41-B7B9-8143199AA684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458CF068-44AF-4E41-B7B9-8143199AA684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458CF068-44AF-4E41-B7B9-8143199AA684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458CF068-44AF-4E41-B7B9-8143199AA684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8915817C-AAB6-4518-8ECD-F86A997BA697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8915817C-AAB6-4518-8ECD-F86A997BA697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8915817C-AAB6-4518-8ECD-F86A997BA697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8915817C-AAB6-4518-8ECD-F86A997BA697}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
