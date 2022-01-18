@@ -1,0 +1,19 @@
+﻿<Window x:Class="BankASMXClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankASMXClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <DataGrid Name="gridInfo" ItemsSource="{Binding}">
+
+        </DataGrid>
+        <Button Name="btnGetData" Grid.Row="1" Content="Get Data from ASMX service" Click="BtnGetData_Click"></Button>
+    </Grid>
+</Window>
